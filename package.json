@@ -5,13 +5,14 @@
 	"main": "index.js",
 	"private": true,
 	"scripts": {
-		"web": "pnpm --filter web dev",
+		"dev": "pnpm --filter web dev",
 		"typecheck": "pnpm -r typecheck",
 		"lint": "pnpm -r lint",
 		"format": "prettier --write .",
 		"format:check": "prettier --check .",
 		"prepare": "simple-git-hooks",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "pnpm -r build"
 	},
 	"simple-git-hooks": {
 		"pre-push": "pnpm typecheck && pnpm lint && pnpm format:check"
