@@ -22,3 +22,6 @@ pnpm-debug.log*
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
+
+# Claude Code (local project notes and plan)
+.claude/
