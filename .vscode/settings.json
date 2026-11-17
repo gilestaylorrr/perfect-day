@@ -1,0 +1,11 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+
+	// Stylelint validates CSS; the built-in checker doesn't know @custom-media
+	"css.validate": false,
+	"stylelint.validate": ["css", "postcss"],
+	"editor.codeActionsOnSave": {
+		"source.fixAll.stylelint": "explicit"
+	}
+}

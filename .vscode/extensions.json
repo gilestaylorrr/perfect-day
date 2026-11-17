@@ -1,0 +1,7 @@
+{
+	"recommendations": [
+		"stylelint.vscode-stylelint",
+		"oxc.oxc-vscode",
+		"esbenp.prettier-vscode"
+	]
+}

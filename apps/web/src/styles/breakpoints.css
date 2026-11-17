@@ -1,0 +1,7 @@
+/* Breakpoints, available in every CSS file via postcss-global-data + postcss-custom-media.
+   Use as: @media (--tablet) { … } */
+@custom-media --mobile (min-width: 0);
+@custom-media --tablet (min-width: 48em);
+@custom-media --desktop (min-width: 75em);
+@custom-media --mobilemax (max-width: 47.99em);
+@custom-media --tabletmax (max-width: 74.99em);
